@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPExIdentityCardOCR_Example' do
+  pod 'TPExIdentityCardOCR', :path => '../'
+
+  target 'TPExIdentityCardOCR_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

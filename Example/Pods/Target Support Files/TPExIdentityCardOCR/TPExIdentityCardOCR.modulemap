@@ -1,0 +1,6 @@
+framework module TPExIdentityCardOCR {
+  umbrella header "TPExIdentityCardOCR-umbrella.h"
+
+  export *
+  module * { export * }
+}

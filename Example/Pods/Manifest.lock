@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TPExIdentityCardOCR (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TPExIdentityCardOCR (from `../`)
+
+EXTERNAL SOURCES:
+  TPExIdentityCardOCR:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TPExIdentityCardOCR: 6b3300217e0e05fc4c9c78966284ed8a704f56d0
+
+PODFILE CHECKSUM: 86b623d728ab7a136cd69742ebb2fa7041b222a4
+
+COCOAPODS: 1.1.1
