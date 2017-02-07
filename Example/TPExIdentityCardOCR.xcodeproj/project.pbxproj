@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B084AC1A31E30BDB3A8A08 /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0755CFEADA1615F57A09F /* Pods_TPExIdentityCardOCR_Tests.framework */; };
+		08D1134CB07AC0F232B2DD4C /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9430C456F7DE06637B9F491A /* Pods_TPExIdentityCardOCR_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,11 +21,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		68B783ECCE194385283F8974 /* Pods_TPExIdentityCardOCR_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CDC863C5422E5B614536A1 /* Pods_TPExIdentityCardOCR_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		76AC372F5ED78BD0843493E7 /* Pods_TPExIdentityCardOCR_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A28EC0CB591F10814D1AD9F /* Pods_TPExIdentityCardOCR_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AE1951DB1E4862D800927D7A /* TPExIdentityCardOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1951DA1E4862D800927D7A /* TPExIdentityCardOCR.framework */; };
-		AE78316C1E49743C00F8BC70 /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE78316B1E49743C00F8BC70 /* ExCardRes.bundle */; };
+		AE7831741E49970E00F8BC70 /* TPExIdentityCardOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7831731E49970E00F8BC70 /* TPExIdentityCardOCR.framework */; };
+		AE7831761E49994700F8BC70 /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE7831751E49994700F8BC70 /* ExCardRes.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0151A0DF9666D53973C04A9D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0A28EC0CB591F10814D1AD9F /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7F7A716F8528AEAAC1F7FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		08B8CA7DD934E7902796A04E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		51CDC863C5422E5B614536A1 /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB84DFDEA568B916C87958D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TPExIdentityCardOCR_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPExIdentityCardOCR_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,16 +61,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6DD4FB64C527B5C5B7532018 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7F4D4F299E61F072922240 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82B35B67B18FEBEC5A12A543 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2A6EF90B5D4EE9EF639BAC9 /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A9C0755CFEADA1615F57A09F /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE1951DA1E4862D800927D7A /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPExIdentityCardOCR.framework; path = "Pods/../build/Debug-iphoneos/TPExIdentityCardOCR/TPExIdentityCardOCR.framework"; sourceTree = "<group>"; };
-		AE78316B1E49743C00F8BC70 /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
-		D9DE8CDB938DD85546F86F65 /* TPExIdentityCardOCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPExIdentityCardOCR.podspec; path = ../TPExIdentityCardOCR.podspec; sourceTree = "<group>"; };
-		F4649236F870B70F99E6A129 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9430C456F7DE06637B9F491A /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7831731E49970E00F8BC70 /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPExIdentityCardOCR.framework; path = "Pods/../build/Debug-iphoneos/TPExIdentityCardOCR/TPExIdentityCardOCR.framework"; sourceTree = "<group>"; };
+		AE7831751E49994700F8BC70 /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
+		C799E9A684DC70E8CB2E7F6E /* TPExIdentityCardOCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPExIdentityCardOCR.podspec; path = ../TPExIdentityCardOCR.podspec; sourceTree = "<group>"; };
+		D1039E6C9183B69F46672A1F /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FB815A6F9496B637330E2B92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC1011B941B943EEF91E2478 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1951DB1E4862D800927D7A /* TPExIdentityCardOCR.framework in Frameworks */,
+				AE7831741E49970E00F8BC70 /* TPExIdentityCardOCR.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				76AC372F5ED78BD0843493E7 /* Pods_TPExIdentityCardOCR_Example.framework in Frameworks */,
+				68B783ECCE194385283F8974 /* Pods_TPExIdentityCardOCR_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				01B084AC1A31E30BDB3A8A08 /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */,
+				08D1134CB07AC0F232B2DD4C /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				6C2DA7597242780BEEC418E7 /* Pods */,
+				C0D4028C5602E89CBF4FCF2F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,13 +124,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE1951DA1E4862D800927D7A /* TPExIdentityCardOCR.framework */,
+				AE7831731E49970E00F8BC70 /* TPExIdentityCardOCR.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0A28EC0CB591F10814D1AD9F /* Pods_TPExIdentityCardOCR_Example.framework */,
-				A9C0755CFEADA1615F57A09F /* Pods_TPExIdentityCardOCR_Tests.framework */,
+				51CDC863C5422E5B614536A1 /* Pods_TPExIdentityCardOCR_Example.framework */,
+				9430C456F7DE06637B9F491A /* Pods_TPExIdentityCardOCR_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 		6003F593195388D20070C39A /* Example for TPExIdentityCardOCR */ = {
 			isa = PBXGroup;
 			children = (
-				AE78316B1E49743C00F8BC70 /* ExCardRes.bundle */,
+				AE7831751E49994700F8BC70 /* ExCardRes.bundle */,
 				6003F59C195388D20070C39A /* TPExIdentityCardOCRAppDelegate.h */,
 				6003F59D195388D20070C39A /* TPExIdentityCardOCRAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,20 +185,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				D9DE8CDB938DD85546F86F65 /* TPExIdentityCardOCR.podspec */,
-				1C7F7A716F8528AEAAC1F7FA /* README.md */,
-				F4649236F870B70F99E6A129 /* LICENSE */,
+				C799E9A684DC70E8CB2E7F6E /* TPExIdentityCardOCR.podspec */,
+				08B8CA7DD934E7902796A04E /* README.md */,
+				FB815A6F9496B637330E2B92 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		6C2DA7597242780BEEC418E7 /* Pods */ = {
+		C0D4028C5602E89CBF4FCF2F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0151A0DF9666D53973C04A9D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */,
-				82B35B67B18FEBEC5A12A543 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */,
-				6DD4FB64C527B5C5B7532018 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */,
-				A2A6EF90B5D4EE9EF639BAC9 /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */,
+				5EB84DFDEA568B916C87958D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */,
+				6D7F4D4F299E61F072922240 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */,
+				FC1011B941B943EEF91E2478 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */,
+				D1039E6C9183B69F46672A1F /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -210,12 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR_Example" */;
 			buildPhases = (
-				89C28EE9B4AD5BD848E043F7 /* [CP] Check Pods Manifest.lock */,
+				AFAE120B420B4CF75DA350AE /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				407CE56FC0D67F662D9FBA17 /* [CP] Embed Pods Frameworks */,
-				3C94842DF78B7E4B0CD43103 /* [CP] Copy Pods Resources */,
+				1002A043BA33D10D5F6ABB29 /* [CP] Embed Pods Frameworks */,
+				8AA7B883642EB787D3B8C68C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,12 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR_Tests" */;
 			buildPhases = (
-				6F86B58BAD719B9C4A228735 /* [CP] Check Pods Manifest.lock */,
+				A8D66B8B69D373AC73701023 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				C28A7359A1EB0DE627105D56 /* [CP] Embed Pods Frameworks */,
-				D41401D5183F2EDFC1249D2C /* [CP] Copy Pods Resources */,
+				CA8BAE95A0FC60DAA080D10E /* [CP] Embed Pods Frameworks */,
+				76FBF859134ABAEBD4E80379 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,7 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE78316C1E49743C00F8BC70 /* ExCardRes.bundle in Resources */,
+				AE7831761E49994700F8BC70 /* ExCardRes.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -309,22 +309,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C94842DF78B7E4B0CD43103 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		407CE56FC0D67F662D9FBA17 /* [CP] Embed Pods Frameworks */ = {
+		1002A043BA33D10D5F6ABB29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,52 +324,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F86B58BAD719B9C4A228735 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		89C28EE9B4AD5BD848E043F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C28A7359A1EB0DE627105D56 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D41401D5183F2EDFC1249D2C /* [CP] Copy Pods Resources */ = {
+		76FBF859134ABAEBD4E80379 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,6 +337,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA7B883642EB787D3B8C68C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D66B8B69D373AC73701023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAE120B420B4CF75DA350AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8BAE95A0FC60DAA080D10E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -533,11 +533,9 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0151A0DF9666D53973C04A9D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */;
+			baseConfigurationReference = 5EB84DFDEA568B916C87958D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: wang jun (MG7C62KG8C)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wang jun (MG7C62KG8C)";
 				DEVELOPMENT_TEAM = M7PXTCG24D;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,11 +555,9 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82B35B67B18FEBEC5A12A543 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */;
+			baseConfigurationReference = 6D7F4D4F299E61F072922240 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: wang jun (MG7C62KG8C)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wang jun (MG7C62KG8C)";
 				DEVELOPMENT_TEAM = M7PXTCG24D;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -581,7 +577,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DD4FB64C527B5C5B7532018 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */;
+			baseConfigurationReference = FC1011B941B943EEF91E2478 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -605,7 +601,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2A6EF90B5D4EE9EF639BAC9 /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */;
+			baseConfigurationReference = D1039E6C9183B69F46672A1F /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

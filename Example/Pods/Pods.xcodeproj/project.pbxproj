@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0141229598ABE2EDBB58A820E8AB2097 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5464626B4CD7CADE78824277254E4CC5 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		431703BD902C39322787A9DB2865B2F8 /* TPExIdentityCardOCR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D151F1438FAD1269F2CD221B7A95A /* TPExIdentityCardOCR-dummy.m */; };
-		5A39860C2BF587AC33675438B5B24391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		62AA24BCB158B5AE22CB040D62E538C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		63FD4F324A3339DFE760B8109E09276F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BA2B2D2B6FE4B6FCA4091C9ED29546 /* ReplaceMe.m */; };
-		6D4DAB1BD9D1A3F1A2320300F1769077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		6D4DAB1BD9D1A3F1A2320300F1769077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6D9E9F3D3B51325985D287D70F665ACC /* TPExIdentityCardOCR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB452BA15DA791320020BA2B2F0535 /* TPExIdentityCardOCR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97B4F7226D9521EB60D9989BBD4708C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		715EAD8C287D9B62F6D970787576CF6E /* Pods-TPExIdentityCardOCR_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1636389E82E306E7FD9676D8E871E /* Pods-TPExIdentityCardOCR_Tests-dummy.m */; };
+		97B4F7226D9521EB60D9989BBD4708C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		AB9AF562EB0ABEF1DB825080DC240138 /* Pods-TPExIdentityCardOCR_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82927F5359B01A5AD96261C832642C24 /* Pods-TPExIdentityCardOCR_Example-dummy.m */; };
-		AE1951DE1E4864B100927D7A /* TPExIdentityCardOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1951DC1E4864B100927D7A /* TPExIdentityCardOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1951DF1E4864B100927D7A /* TPExIdentityCardOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1951DD1E4864B100927D7A /* TPExIdentityCardOCR.m */; };
-		AE78316A1E496C8E00F8BC70 /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7831691E496C8E00F8BC70 /* ExCardSDK.framework */; };
-		BFFACEC2BEBE441D6C639C359FB62423 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5464626B4CD7CADE78824277254E4CC5 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE78316E1E49960D00F8BC70 /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78316D1E49960D00F8BC70 /* ExCardSDK.framework */; };
+		AE7831711E49962000F8BC70 /* TPExIdentityCardOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = AE78316F1E49962000F8BC70 /* TPExIdentityCardOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE7831721E49962000F8BC70 /* TPExIdentityCardOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7831701E49962000F8BC70 /* TPExIdentityCardOCR.m */; };
 		C238F315F5236A849EB91AF3444A077C /* Pods-TPExIdentityCardOCR_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39536059A7D470E51B7A4E8C2841B300 /* Pods-TPExIdentityCardOCR_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1AB77DAC263E6ED8FE38D5C8511DC5B /* Pods-TPExIdentityCardOCR_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1636389E82E306E7FD9676D8E871E /* Pods-TPExIdentityCardOCR_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,10 @@
 
 /* Begin PBXFileReference section */
 		00BA2B2D2B6FE4B6FCA4091C9ED29546 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		0A6D3C0075BD4B74F0177E6CE3BFA7D3 /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		292C24C6A240047997DB2DF8F1C62E21 /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4A53FEA5FD07B3DA570543B3326FC /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7D151F1438FAD1269F2CD221B7A95A /* TPExIdentityCardOCR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPExIdentityCardOCR-dummy.m"; sourceTree = "<group>"; };
 		3239F2B3AFB95FE22E068FBDD240B2FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39536059A7D470E51B7A4E8C2841B300 /* Pods-TPExIdentityCardOCR_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPExIdentityCardOCR_Example-umbrella.h"; sourceTree = "<group>"; };
-		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		417F3A8D1985EDFFDD0FC6FFE7A7BFAC /* Pods-TPExIdentityCardOCR_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPExIdentityCardOCR_Example.modulemap"; sourceTree = "<group>"; };
 		5464626B4CD7CADE78824277254E4CC5 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPExIdentityCardOCR_Tests-umbrella.h"; sourceTree = "<group>"; };
 		63AB452BA15DA791320020BA2B2F0535 /* TPExIdentityCardOCR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-umbrella.h"; sourceTree = "<group>"; };
@@ -54,20 +50,21 @@
 		7DDF637DCE8B9D0535BD36A9D0F8E9D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82927F5359B01A5AD96261C832642C24 /* Pods-TPExIdentityCardOCR_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPExIdentityCardOCR_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE1951DC1E4864B100927D7A /* TPExIdentityCardOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCR.h; sourceTree = "<group>"; };
-		AE1951DD1E4864B100927D7A /* TPExIdentityCardOCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCR.m; sourceTree = "<group>"; };
-		AE7831691E496C8E00F8BC70 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
+		AE78316D1E49960D00F8BC70 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
+		AE78316F1E49962000F8BC70 /* TPExIdentityCardOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCR.h; sourceTree = "<group>"; };
+		AE7831701E49962000F8BC70 /* TPExIdentityCardOCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCR.m; sourceTree = "<group>"; };
 		B00CDEA1E27BC0E475EE43D69C8B4FB0 /* Pods-TPExIdentityCardOCR_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExIdentityCardOCR_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B145C98B1327EA7FD314C7A12055B796 /* Pods-TPExIdentityCardOCR_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExIdentityCardOCR_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4AA05A3AEFA65B6049D023C0B53E545 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC55AA50BC1CD211E087FC1B52591CE7 /* Pods-TPExIdentityCardOCR_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Tests-resources.sh"; sourceTree = "<group>"; };
 		C1A333F88544810501FC7F11EC6F093D /* Pods-TPExIdentityCardOCR_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C61566703FCA4795413544F3D1A3478D /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPExIdentityCardOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A33F9E9D8C30EA844D52EAE2688EC3 /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPExIdentityCardOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D38AA5B25682C72C109D056CF9AE7ECA /* Pods-TPExIdentityCardOCR_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExIdentityCardOCR_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D7325344AE150907DD04FE4AB62919CC /* Pods-TPExIdentityCardOCR_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Example-resources.sh"; sourceTree = "<group>"; };
-		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DEA8BC1E51E82452BBA3A60F3490B425 /* TPExIdentityCardOCR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPExIdentityCardOCR.xcconfig; sourceTree = "<group>"; };
 		E3A87A1F6EE0089E1E3C2D712ED8AC0E /* Pods-TPExIdentityCardOCR_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExIdentityCardOCR_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFAEABB7FBC9555114247931297DA4C8 /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B900D59320B4101CABD1018B6C59F7 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCE368C2F516D6D428B4EF17480D8DE5 /* TPExIdentityCardOCR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-prefix.pch"; sourceTree = "<group>"; };
 		FEA5F5EA09851FD5B15A78AA0A6D2554 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExIdentityCardOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,28 +83,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE78316A1E496C8E00F8BC70 /* ExCardSDK.framework in Frameworks */,
+				AE78316E1E49960D00F8BC70 /* ExCardSDK.framework in Frameworks */,
 				6D4DAB1BD9D1A3F1A2320300F1769077 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0863CBA0F138A33F30DBD8D0D484150 /* Frameworks */ = {
+		E208D40F8C4E38A88D2283003292A857 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A39860C2BF587AC33675438B5B24391 /* Foundation.framework in Frameworks */,
+				62AA24BCB158B5AE22CB040D62E538C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		01F4D4FB7675272A56FAD06BDA64008C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F76C5E10C253876355FB231229C42226 /* iOS */,
+				04B4A53FEA5FD07B3DA570543B3326FC /* Pods_TPExIdentityCardOCR_Example.framework */,
+				EFAEABB7FBC9555114247931297DA4C8 /* Pods_TPExIdentityCardOCR_Tests.framework */,
+				C6A33F9E9D8C30EA844D52EAE2688EC3 /* TPExIdentityCardOCR.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		20C854436FF397DE8DC2388E64527028 /* Pods-TPExIdentityCardOCR_Tests */ = {
@@ -146,14 +145,22 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE78316D1E49960D00F8BC70 /* ExCardSDK.framework */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3ABAE8D33CCC083182DD5F0929E686B0 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				F7ABCFABD6E7C2757F5BA4FE7B1170F7 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				01F4D4FB7675272A56FAD06BDA64008C /* Products */,
 				9D9683A818B7FA7D126CA92FF7C3193E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -196,33 +203,19 @@
 		A372615FA5A9255E4255C3096F861956 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AE78316F1E49962000F8BC70 /* TPExIdentityCardOCR.h */,
+				AE7831701E49962000F8BC70 /* TPExIdentityCardOCR.m */,
 				00BA2B2D2B6FE4B6FCA4091C9ED29546 /* ReplaceMe.m */,
-				AE1951DC1E4864B100927D7A /* TPExIdentityCardOCR.h */,
-				AE1951DD1E4864B100927D7A /* TPExIdentityCardOCR.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		F76C5E10C253876355FB231229C42226 /* iOS */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE7831691E496C8E00F8BC70 /* ExCardSDK.framework */,
-				DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */,
-				41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */,
-				0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */,
-				3C32099E0A716483F90035D502A494AC /* XCTest.framework */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F7ABCFABD6E7C2757F5BA4FE7B1170F7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A6D3C0075BD4B74F0177E6CE3BFA7D3 /* Pods_TPExIdentityCardOCR_Example.framework */,
-				292C24C6A240047997DB2DF8F1C62E21 /* Pods_TPExIdentityCardOCR_Tests.framework */,
-				C61566703FCA4795413544F3D1A3478D /* TPExIdentityCardOCR.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FA35083C25A9208DE4C5A67DFAAD0841 /* Support Files */ = {
@@ -239,13 +232,6 @@
 			path = "Example/Pods/Target Support Files/TPExIdentityCardOCR";
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -257,11 +243,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30A87D424547CFF398BC3752497D8E2D /* Headers */ = {
+		CB9F4F9ED34C32A86699C6EE4698E8C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFACEC2BEBE441D6C639C359FB62423 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h in Headers */,
+				0141229598ABE2EDBB58A820E8AB2097 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1951DE1E4864B100927D7A /* TPExIdentityCardOCR.h in Headers */,
+				AE7831711E49962000F8BC70 /* TPExIdentityCardOCR.h in Headers */,
 				6D9E9F3D3B51325985D287D70F665ACC /* TPExIdentityCardOCR-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,16 +278,16 @@
 			);
 			name = "Pods-TPExIdentityCardOCR_Example";
 			productName = "Pods-TPExIdentityCardOCR_Example";
-			productReference = 0A6D3C0075BD4B74F0177E6CE3BFA7D3 /* Pods_TPExIdentityCardOCR_Example.framework */;
+			productReference = 04B4A53FEA5FD07B3DA570543B3326FC /* Pods_TPExIdentityCardOCR_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70058564178896E4F7E0EF8A61DA31AF /* Pods-TPExIdentityCardOCR_Tests */ = {
+		889B461D67740088737B740CE05078AE /* Pods-TPExIdentityCardOCR_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 061E9886192BFF77703423C99A85375D /* Build configuration list for PBXNativeTarget "Pods-TPExIdentityCardOCR_Tests" */;
+			buildConfigurationList = B25E7BBD8B61B197A41C715A45D4D35B /* Build configuration list for PBXNativeTarget "Pods-TPExIdentityCardOCR_Tests" */;
 			buildPhases = (
-				D0CA32974C8B1A8DA8B2EFD4CD803129 /* Sources */,
-				D0863CBA0F138A33F30DBD8D0D484150 /* Frameworks */,
-				30A87D424547CFF398BC3752497D8E2D /* Headers */,
+				617F108524DF1C65192E439FD75FD97A /* Sources */,
+				E208D40F8C4E38A88D2283003292A857 /* Frameworks */,
+				CB9F4F9ED34C32A86699C6EE4698E8C2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -309,7 +295,7 @@
 			);
 			name = "Pods-TPExIdentityCardOCR_Tests";
 			productName = "Pods-TPExIdentityCardOCR_Tests";
-			productReference = 292C24C6A240047997DB2DF8F1C62E21 /* Pods_TPExIdentityCardOCR_Tests.framework */;
+			productReference = EFAEABB7FBC9555114247931297DA4C8 /* Pods_TPExIdentityCardOCR_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		92B1B114B2A8F49ECCD8794F603A930D /* TPExIdentityCardOCR */ = {
@@ -326,7 +312,7 @@
 			);
 			name = TPExIdentityCardOCR;
 			productName = TPExIdentityCardOCR;
-			productReference = C61566703FCA4795413544F3D1A3478D /* TPExIdentityCardOCR.framework */;
+			productReference = C6A33F9E9D8C30EA844D52EAE2688EC3 /* TPExIdentityCardOCR.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,33 +332,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F7ABCFABD6E7C2757F5BA4FE7B1170F7 /* Products */;
+			productRefGroup = 01F4D4FB7675272A56FAD06BDA64008C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0D727F87FE9A44FEE0321A62C7EBD9F1 /* Pods-TPExIdentityCardOCR_Example */,
-				70058564178896E4F7E0EF8A61DA31AF /* Pods-TPExIdentityCardOCR_Tests */,
+				889B461D67740088737B740CE05078AE /* Pods-TPExIdentityCardOCR_Tests */,
 				92B1B114B2A8F49ECCD8794F603A930D /* TPExIdentityCardOCR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		617F108524DF1C65192E439FD75FD97A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715EAD8C287D9B62F6D970787576CF6E /* Pods-TPExIdentityCardOCR_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACE0B096D18B5BA0FA434A25E2AA9A8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1951DF1E4864B100927D7A /* TPExIdentityCardOCR.m in Sources */,
+				AE7831721E49962000F8BC70 /* TPExIdentityCardOCR.m in Sources */,
 				63FD4F324A3339DFE760B8109E09276F /* ReplaceMe.m in Sources */,
 				431703BD902C39322787A9DB2865B2F8 /* TPExIdentityCardOCR-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0CA32974C8B1A8DA8B2EFD4CD803129 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1AB77DAC263E6ED8FE38D5C8511DC5B /* Pods-TPExIdentityCardOCR_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +382,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D40F31DE33DDED1959FBE03D9F896B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B900D59320B4101CABD1018B6C59F7 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPExIdentityCardOCR_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		599A3967CB1CEF88840438DD37E70012 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D8FC11A9AEC2986CFADF90CEC5B4F8E /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */;
@@ -515,42 +536,6 @@
 			};
 			name = Debug;
 		};
-		A6E63613715BBD5B2F6CE3B90A4616A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4B900D59320B4101CABD1018B6C59F7 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TPExIdentityCardOCR_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B2B3385D277236CF70D3F30179C55F69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEA8BC1E51E82452BBA3A60F3490B425 /* TPExIdentityCardOCR.xcconfig */;
@@ -578,41 +563,6 @@
 				MODULEMAP_FILE = "Target Support Files/TPExIdentityCardOCR/TPExIdentityCardOCR.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TPExIdentityCardOCR;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D8400EAB5CC145429785FFC07E880F74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67589E92B99553684ABF0757F7326481 /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TPExIdentityCardOCR_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,18 +641,44 @@
 			};
 			name = Debug;
 		};
+		FDB489764E193D3C560DC21001CA9B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67589E92B99553684ABF0757F7326481 /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPExIdentityCardOCR_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		061E9886192BFF77703423C99A85375D /* Build configuration list for PBXNativeTarget "Pods-TPExIdentityCardOCR_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6E63613715BBD5B2F6CE3B90A4616A0 /* Debug */,
-				D8400EAB5CC145429785FFC07E880F74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -717,6 +693,15 @@
 			buildConfigurations = (
 				E875C802B578EBA57F6BDB012C5F43AE /* Debug */,
 				B2B3385D277236CF70D3F30179C55F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25E7BBD8B61B197A41C715A45D4D35B /* Build configuration list for PBXNativeTarget "Pods-TPExIdentityCardOCR_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D40F31DE33DDED1959FBE03D9F896B5 /* Debug */,
+				FDB489764E193D3C560DC21001CA9B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

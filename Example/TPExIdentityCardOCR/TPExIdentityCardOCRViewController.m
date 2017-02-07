@@ -2,7 +2,7 @@
 //  TPExIdentityCardOCRViewController.m
 //  TPExIdentityCardOCR
 //
-//  Created by kingdomrain on 02/06/2017.
+//  Created by kingdomrain on 02/07/2017.
 //  Copyright (c) 2017 kingdomrain. All rights reserved.
 //
 
@@ -20,9 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    TPExIdentityCardOCR *ocr = [[TPExIdentityCardOCR alloc] init];
-    [ocr start];
+//    TPExIdentityCardOCR *ocr = [[TPExIdentityCardOCR alloc] init];
+//    ocr.bFront = @"NO";
+//    [ocr start];
 }
 
 - (void)didReceiveMemoryWarning

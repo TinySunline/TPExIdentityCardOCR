@@ -5,5 +5,7 @@ target 'TPExIdentityCardOCR_Example' do
 
   target 'TPExIdentityCardOCR_Tests' do
     inherit! :search_paths
- end
+
+    
+  end
 end

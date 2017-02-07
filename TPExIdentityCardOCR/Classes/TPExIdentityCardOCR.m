@@ -24,7 +24,6 @@
 -(id)init{
     if(self = [super init]) {
         [EXOCRCardEngineManager initEngine];
-//        self.bFront = @"NO";
     }
     return self;
     
@@ -34,16 +33,16 @@
     NSLog(@"开始ocr扫描");
     UIViewController *window = [UIApplication sharedApplication].keyWindow.rootViewController;
     
-    UIViewController *currentVC = [self getCurrentVC];
-    self.viewController = currentVC;
+//    UIViewController *currentVC = [self getCurrentVC];
+    self.viewController = window;
     
     EXOCRIDCardRecoManager *manager = [EXOCRIDCardRecoManager sharedManager:self.viewController];
     [manager setImageMode:ID_IMAGEMODE_HIGH];
     
     BOOL bShouldFront = YES;   //默认是YES  识别正面还是背面，YES为正面，NO为背面
-//    if([self.bFront isEqualToString:@"NO"]){
-//        bShouldFront = NO;
-//    }
+    if([self.bFront isEqualToString:@"NO"]){
+        bShouldFront = NO;
+    }
     
     [manager recoIDCardFromStreamWithSide:bShouldFront OnCompleted:^(int statusCode, EXOCRIDCardInfo *idInfo) {
         NSLog(@"Completed");
