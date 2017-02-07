@@ -16,9 +16,9 @@
 		715EAD8C287D9B62F6D970787576CF6E /* Pods-TPExIdentityCardOCR_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1636389E82E306E7FD9676D8E871E /* Pods-TPExIdentityCardOCR_Tests-dummy.m */; };
 		97B4F7226D9521EB60D9989BBD4708C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		AB9AF562EB0ABEF1DB825080DC240138 /* Pods-TPExIdentityCardOCR_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82927F5359B01A5AD96261C832642C24 /* Pods-TPExIdentityCardOCR_Example-dummy.m */; };
-		AE78316E1E49960D00F8BC70 /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78316D1E49960D00F8BC70 /* ExCardSDK.framework */; };
 		AE7831711E49962000F8BC70 /* TPExIdentityCardOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = AE78316F1E49962000F8BC70 /* TPExIdentityCardOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE7831721E49962000F8BC70 /* TPExIdentityCardOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7831701E49962000F8BC70 /* TPExIdentityCardOCR.m */; };
+		AE7831811E49A09400F8BC70 /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7831801E49A09400F8BC70 /* ExCardSDK.framework */; };
 		C238F315F5236A849EB91AF3444A077C /* Pods-TPExIdentityCardOCR_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39536059A7D470E51B7A4E8C2841B300 /* Pods-TPExIdentityCardOCR_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,9 +50,9 @@
 		7DDF637DCE8B9D0535BD36A9D0F8E9D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82927F5359B01A5AD96261C832642C24 /* Pods-TPExIdentityCardOCR_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPExIdentityCardOCR_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE78316D1E49960D00F8BC70 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
 		AE78316F1E49962000F8BC70 /* TPExIdentityCardOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCR.h; sourceTree = "<group>"; };
 		AE7831701E49962000F8BC70 /* TPExIdentityCardOCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCR.m; sourceTree = "<group>"; };
+		AE7831801E49A09400F8BC70 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
 		B00CDEA1E27BC0E475EE43D69C8B4FB0 /* Pods-TPExIdentityCardOCR_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExIdentityCardOCR_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B145C98B1327EA7FD314C7A12055B796 /* Pods-TPExIdentityCardOCR_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExIdentityCardOCR_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4AA05A3AEFA65B6049D023C0B53E545 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE78316E1E49960D00F8BC70 /* ExCardSDK.framework in Frameworks */,
+				AE7831811E49A09400F8BC70 /* ExCardSDK.framework in Frameworks */,
 				6D4DAB1BD9D1A3F1A2320300F1769077 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +148,6 @@
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE78316D1E49960D00F8BC70 /* ExCardSDK.framework */,
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
@@ -213,6 +212,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE7831801E49A09400F8BC70 /* ExCardSDK.framework */,
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
