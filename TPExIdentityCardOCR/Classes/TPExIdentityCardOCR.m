@@ -30,9 +30,8 @@
 }
 
 -(void)start{
-    NSLog(@"开始ocr扫描");
+    //NSLog(@"开始ocr扫描");
     UIViewController *window = [UIApplication sharedApplication].keyWindow.rootViewController;
-    
 //    UIViewController *currentVC = [self getCurrentVC];
     self.viewController = window;
     
@@ -49,21 +48,21 @@
         NSLog(@"%@", [idInfo toString]);
         
         if(bShouldFront == NO){
-            NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code];
-            [self.success callWithArguments:@[fdata]];
-        }
-        else{
             NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\"}",idInfo.issue,idInfo.valid];
             [self.success callWithArguments:@[bdata]];
         }
+        else{
+            NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code];
+            [self.success callWithArguments:@[fdata]];
+        }
     } OnCanceled:^(int statusCode) {
-        NSLog(@"Canceled");
+        //NSLog(@"Canceled");
         [self.error callWithArguments:@[@"取消"]];
     } OnFailed:^(int statusCode, UIImage *recoImg) {
-        NSLog(@"Failed");
+        //NSLog(@"Failed");
         [self.error callWithArguments:@[@"失败"]];
     }];
-    NSLog(@"结束扫描");
+    //NSLog(@"结束扫描");
 }
 
 -(void)dealloc
