@@ -34,9 +34,12 @@ s.source_files = 'TPExIdentityCardOCR/Classes/**/*'
 
 s.resource_bundles = {'TPExIdentityCardOCR' => ['TPExIdentityCardOCR/Assets/ExCardRes.bundle']}
 
-s.vendored_frameworks = 'Pod/sdk/ExCardSDK.framework'
+#s.vendored_frameworks = 'Pod/sdk/ExCardSDK.framework'
+s.ios.vendored_frameworks = 'Frameworks/sdk/ExCardSDK.framework'
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
 # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+
