@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0141229598ABE2EDBB58A820E8AB2097 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5464626B4CD7CADE78824277254E4CC5 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		431703BD902C39322787A9DB2865B2F8 /* TPExIdentityCardOCR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D151F1438FAD1269F2CD221B7A95A /* TPExIdentityCardOCR-dummy.m */; };
+		0F182183E346673A1C0D9F8171C4BBCC /* TPExIdentityCardOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED3C63EA9C7229E219197F22969055F /* TPExIdentityCardOCR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA3FF77D858687EF333B27D3A270FCB /* TPExIdentityCardOCR.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1EE0421BA39F082E74C8595FE47BEEF3 /* TPExIdentityCardOCR.bundle */; };
+		3D9BD95E1A8772A7B56CC80C73CD6D2C /* TPExIdentityCardOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB881170DBFD0EA919E89A0BBC552B8 /* TPExIdentityCardOCR.m */; };
 		62AA24BCB158B5AE22CB040D62E538C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		63FD4F324A3339DFE760B8109E09276F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BA2B2D2B6FE4B6FCA4091C9ED29546 /* ReplaceMe.m */; };
 		6D4DAB1BD9D1A3F1A2320300F1769077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6D9E9F3D3B51325985D287D70F665ACC /* TPExIdentityCardOCR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB452BA15DA791320020BA2B2F0535 /* TPExIdentityCardOCR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		715EAD8C287D9B62F6D970787576CF6E /* Pods-TPExIdentityCardOCR_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1636389E82E306E7FD9676D8E871E /* Pods-TPExIdentityCardOCR_Tests-dummy.m */; };
 		97B4F7226D9521EB60D9989BBD4708C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		AB9AF562EB0ABEF1DB825080DC240138 /* Pods-TPExIdentityCardOCR_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82927F5359B01A5AD96261C832642C24 /* Pods-TPExIdentityCardOCR_Example-dummy.m */; };
-		AE7831971E49B2D000F8BC70 /* TPExIdentityCardOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7831941E49B2D000F8BC70 /* TPExIdentityCardOCR.h */; };
-		AE7831981E49B2D000F8BC70 /* TPExIdentityCardOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7831951E49B2D000F8BC70 /* TPExIdentityCardOCR.m */; };
-		AE78319D1E49B52100F8BC70 /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE78319C1E49B52100F8BC70 /* ExCardSDK.framework */; };
+		AC308A6C0753FCE0F6258F55CD7C95FB /* TPExIdentityCardOCR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B67CC1CD43776D943597B6495B7FA1BD /* TPExIdentityCardOCR-dummy.m */; };
 		C238F315F5236A849EB91AF3444A077C /* Pods-TPExIdentityCardOCR_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39536059A7D470E51B7A4E8C2841B300 /* Pods-TPExIdentityCardOCR_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF803D0E2401EB8558668548D835684 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A5873069132FCFB50216F33AAA5A17CC /* ReplaceMe.m */; };
+		E3B18E609B9C17DBDC6F4346DD00BC8C /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC56051350EAB4FE2AD492AED87A74F1 /* ExCardRes.bundle */; };
+		FBF22D18347CEC35F618BC9DCDC7807B /* TPExIdentityCardOCR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B2BD1B78E676482586C21E10CACE5C /* TPExIdentityCardOCR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,43 +31,53 @@
 			remoteGlobalIDString = 92B1B114B2A8F49ECCD8794F603A930D;
 			remoteInfo = TPExIdentityCardOCR;
 		};
+		807FDE62C739E34C5C593AE5DE57C89D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA30098E5E45FBCB89793A35D040395;
+			remoteInfo = "TPExIdentityCardOCR-TPExIdentityCardOCR";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BA2B2D2B6FE4B6FCA4091C9ED29546 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		04B4A53FEA5FD07B3DA570543B3326FC /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D7D151F1438FAD1269F2CD221B7A95A /* TPExIdentityCardOCR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPExIdentityCardOCR-dummy.m"; sourceTree = "<group>"; };
+		04518DC4CB3C84AD4A10E8618BA5EA7F /* TPExIdentityCardOCR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-prefix.pch"; sourceTree = "<group>"; };
+		1ED3C63EA9C7229E219197F22969055F /* TPExIdentityCardOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCR.h; sourceTree = "<group>"; };
+		1EE0421BA39F082E74C8595FE47BEEF3 /* TPExIdentityCardOCR.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TPExIdentityCardOCR.bundle; path = TPExIdentityCardOCR.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3239F2B3AFB95FE22E068FBDD240B2FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3740F76E473F0F61AD0BE653435238BC /* TPExIdentityCardOCR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TPExIdentityCardOCR.modulemap; sourceTree = "<group>"; };
 		39536059A7D470E51B7A4E8C2841B300 /* Pods-TPExIdentityCardOCR_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPExIdentityCardOCR_Example-umbrella.h"; sourceTree = "<group>"; };
-		417F3A8D1985EDFFDD0FC6FFE7A7BFAC /* Pods-TPExIdentityCardOCR_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPExIdentityCardOCR_Example.modulemap"; sourceTree = "<group>"; };
+		417F3A8D1985EDFFDD0FC6FFE7A7BFAC /* Pods-TPExIdentityCardOCR_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TPExIdentityCardOCR_Example.modulemap"; sourceTree = "<group>"; };
 		5464626B4CD7CADE78824277254E4CC5 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPExIdentityCardOCR_Tests-umbrella.h"; sourceTree = "<group>"; };
-		63AB452BA15DA791320020BA2B2F0535 /* TPExIdentityCardOCR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-umbrella.h"; sourceTree = "<group>"; };
-		65847C2F7822EC01BDE513599255D880 /* TPExIdentityCardOCR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPExIdentityCardOCR.modulemap; sourceTree = "<group>"; };
+		5737D86DF1C58191DC7EB994FD98D4D7 /* ResourceBundle-TPExIdentityCardOCR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TPExIdentityCardOCR-Info.plist"; sourceTree = "<group>"; };
 		67589E92B99553684ABF0757F7326481 /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		714ED6766AE3DCFE00D74CFF6A9FAA98 /* Pods-TPExIdentityCardOCR_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPExIdentityCardOCR_Tests.modulemap"; sourceTree = "<group>"; };
+		714ED6766AE3DCFE00D74CFF6A9FAA98 /* Pods-TPExIdentityCardOCR_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TPExIdentityCardOCR_Tests.modulemap"; sourceTree = "<group>"; };
 		78B1636389E82E306E7FD9676D8E871E /* Pods-TPExIdentityCardOCR_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPExIdentityCardOCR_Tests-dummy.m"; sourceTree = "<group>"; };
 		797FD889C803EB0787F962D992E44953 /* Pods-TPExIdentityCardOCR_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7D8FC11A9AEC2986CFADF90CEC5B4F8E /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7DDF637DCE8B9D0535BD36A9D0F8E9D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A4FFA960245D92617FE9EC8185F0B8 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExCardSDK.framework; path = TPExIdentityCardOCR/Assets/ExCardSDK.framework; sourceTree = "<group>"; };
 		82927F5359B01A5AD96261C832642C24 /* Pods-TPExIdentityCardOCR_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPExIdentityCardOCR_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE7831941E49B2D000F8BC70 /* TPExIdentityCardOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCR.h; sourceTree = "<group>"; };
-		AE7831951E49B2D000F8BC70 /* TPExIdentityCardOCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCR.m; sourceTree = "<group>"; };
-		AE78319C1E49B52100F8BC70 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
+		83C35A9CCF91E48445E931252E84C389 /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPExIdentityCardOCR_Example.framework; path = "Pods-TPExIdentityCardOCR_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB881170DBFD0EA919E89A0BBC552B8 /* TPExIdentityCardOCR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCR.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B2BD1B78E676482586C21E10CACE5C /* TPExIdentityCardOCR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-umbrella.h"; sourceTree = "<group>"; };
+		A5873069132FCFB50216F33AAA5A17CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		B00CDEA1E27BC0E475EE43D69C8B4FB0 /* Pods-TPExIdentityCardOCR_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExIdentityCardOCR_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B145C98B1327EA7FD314C7A12055B796 /* Pods-TPExIdentityCardOCR_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExIdentityCardOCR_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B4AA05A3AEFA65B6049D023C0B53E545 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67CC1CD43776D943597B6495B7FA1BD /* TPExIdentityCardOCR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPExIdentityCardOCR-dummy.m"; sourceTree = "<group>"; };
 		BC55AA50BC1CD211E087FC1B52591CE7 /* Pods-TPExIdentityCardOCR_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Tests-resources.sh"; sourceTree = "<group>"; };
+		BCF7851C2ECC852EF85030BB5436F44F /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPExIdentityCardOCR_Tests.framework; path = "Pods-TPExIdentityCardOCR_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C148B7FC8C8C46BEDDA7A6BA2A9F82A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1A333F88544810501FC7F11EC6F093D /* Pods-TPExIdentityCardOCR_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C6A33F9E9D8C30EA844D52EAE2688EC3 /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPExIdentityCardOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D38AA5B25682C72C109D056CF9AE7ECA /* Pods-TPExIdentityCardOCR_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExIdentityCardOCR_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D7325344AE150907DD04FE4AB62919CC /* Pods-TPExIdentityCardOCR_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExIdentityCardOCR_Example-resources.sh"; sourceTree = "<group>"; };
-		DEA8BC1E51E82452BBA3A60F3490B425 /* TPExIdentityCardOCR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPExIdentityCardOCR.xcconfig; sourceTree = "<group>"; };
+		D8CB49DC6B7F6BF8E72B8626C7D5A8C6 /* TPExIdentityCardOCR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPExIdentityCardOCR.xcconfig; sourceTree = "<group>"; };
+		DC56051350EAB4FE2AD492AED87A74F1 /* ExCardRes.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
+		DD841E906B75FF4E10B40132EF085B61 /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPExIdentityCardOCR.framework; path = TPExIdentityCardOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A87A1F6EE0089E1E3C2D712ED8AC0E /* Pods-TPExIdentityCardOCR_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExIdentityCardOCR_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFAEABB7FBC9555114247931297DA4C8 /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B900D59320B4101CABD1018B6C59F7 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FCE368C2F516D6D428B4EF17480D8DE5 /* TPExIdentityCardOCR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-prefix.pch"; sourceTree = "<group>"; };
 		FEA5F5EA09851FD5B15A78AA0A6D2554 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExIdentityCardOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE78319D1E49B52100F8BC70 /* ExCardSDK.framework in Frameworks */,
 				6D4DAB1BD9D1A3F1A2320300F1769077 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,15 +106,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF936019E460AEDF0AEDCBD96CE1359E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F4D4FB7675272A56FAD06BDA64008C /* Products */ = {
+		185A961141FAB176CA0D0598F4365AA5 /* TPExIdentityCardOCR */ = {
 			isa = PBXGroup;
 			children = (
-				04B4A53FEA5FD07B3DA570543B3326FC /* Pods_TPExIdentityCardOCR_Example.framework */,
-				EFAEABB7FBC9555114247931297DA4C8 /* Pods_TPExIdentityCardOCR_Tests.framework */,
-				C6A33F9E9D8C30EA844D52EAE2688EC3 /* TPExIdentityCardOCR.framework */,
+				512BE7946038EE4C3E44F5C2A4001201 /* Frameworks */,
+				7FBCBEC9C943F86A1EE4AF4785B02A8C /* Resources */,
+				267B1AB63A46C566A789091AA94969F4 /* Support Files */,
+				47FFFFDEC5B0DF89DC12D87B6A974B04 /* TPExIdentityCardOCR */,
+			);
+			name = TPExIdentityCardOCR;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1945E6B5D0DE6616CE9ABE8262A5A1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C35A9CCF91E48445E931252E84C389 /* Pods_TPExIdentityCardOCR_Example.framework */,
+				BCF7851C2ECC852EF85030BB5436F44F /* Pods_TPExIdentityCardOCR_Tests.framework */,
+				1EE0421BA39F082E74C8595FE47BEEF3 /* TPExIdentityCardOCR.bundle */,
+				DD841E906B75FF4E10B40132EF085B61 /* TPExIdentityCardOCR.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,22 +157,36 @@
 			path = "Target Support Files/Pods-TPExIdentityCardOCR_Tests";
 			sourceTree = "<group>";
 		};
-		362293501C229F3CE9A3C8FCA50E5CC3 /* TPExIdentityCardOCR */ = {
+		267B1AB63A46C566A789091AA94969F4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA35083C25A9208DE4C5A67DFAAD0841 /* Support Files */,
-				7DCCAB04A4241957A2C9EA7432D45B91 /* TPExIdentityCardOCR */,
+				C148B7FC8C8C46BEDDA7A6BA2A9F82A6 /* Info.plist */,
+				5737D86DF1C58191DC7EB994FD98D4D7 /* ResourceBundle-TPExIdentityCardOCR-Info.plist */,
+				3740F76E473F0F61AD0BE653435238BC /* TPExIdentityCardOCR.modulemap */,
+				D8CB49DC6B7F6BF8E72B8626C7D5A8C6 /* TPExIdentityCardOCR.xcconfig */,
+				B67CC1CD43776D943597B6495B7FA1BD /* TPExIdentityCardOCR-dummy.m */,
+				04518DC4CB3C84AD4A10E8618BA5EA7F /* TPExIdentityCardOCR-prefix.pch */,
+				97B2BD1B78E676482586C21E10CACE5C /* TPExIdentityCardOCR-umbrella.h */,
 			);
-			name = TPExIdentityCardOCR;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPExIdentityCardOCR";
 			sourceTree = "<group>";
 		};
-		3ABAE8D33CCC083182DD5F0929E686B0 /* Development Pods */ = {
+		47FFFFDEC5B0DF89DC12D87B6A974B04 /* TPExIdentityCardOCR */ = {
 			isa = PBXGroup;
 			children = (
-				362293501C229F3CE9A3C8FCA50E5CC3 /* TPExIdentityCardOCR */,
+				BE2403328C10ED589197059C332958EE /* Classes */,
 			);
-			name = "Development Pods";
+			name = TPExIdentityCardOCR;
+			path = TPExIdentityCardOCR;
+			sourceTree = "<group>";
+		};
+		512BE7946038EE4C3E44F5C2A4001201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A4FFA960245D92617FE9EC8185F0B8 /* ExCardSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -157,19 +201,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3ABAE8D33CCC083182DD5F0929E686B0 /* Development Pods */,
+				A0B1A946667ECDC7B47DCB26E7BBFFAD /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				01F4D4FB7675272A56FAD06BDA64008C /* Products */,
+				1945E6B5D0DE6616CE9ABE8262A5A1C6 /* Products */,
 				9D9683A818B7FA7D126CA92FF7C3193E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DCCAB04A4241957A2C9EA7432D45B91 /* TPExIdentityCardOCR */ = {
+		7FBCBEC9C943F86A1EE4AF4785B02A8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A372615FA5A9255E4255C3096F861956 /* Classes */,
+				F4F0C6D38EA9513BC43F04256A9BF36E /* TPExIdentityCardOCR */,
 			);
-			path = TPExIdentityCardOCR;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9D9683A818B7FA7D126CA92FF7C3193E /* Targets Support Files */ = {
@@ -179,6 +223,14 @@
 				20C854436FF397DE8DC2388E64527028 /* Pods-TPExIdentityCardOCR_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0B1A946667ECDC7B47DCB26E7BBFFAD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				185A961141FAB176CA0D0598F4365AA5 /* TPExIdentityCardOCR */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A164EC061FA4BB468690F19F9C9B23EA /* Pods-TPExIdentityCardOCR_Example */ = {
@@ -199,45 +251,41 @@
 			path = "Target Support Files/Pods-TPExIdentityCardOCR_Example";
 			sourceTree = "<group>";
 		};
-		A372615FA5A9255E4255C3096F861956 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AE7831941E49B2D000F8BC70 /* TPExIdentityCardOCR.h */,
-				AE7831951E49B2D000F8BC70 /* TPExIdentityCardOCR.m */,
-				00BA2B2D2B6FE4B6FCA4091C9ED29546 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		AE78319B1E49B52100F8BC70 /* sdk */ = {
-			isa = PBXGroup;
-			children = (
-				AE78319C1E49B52100F8BC70 /* ExCardSDK.framework */,
-			);
-			path = sdk;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE78319B1E49B52100F8BC70 /* sdk */,
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA35083C25A9208DE4C5A67DFAAD0841 /* Support Files */ = {
+		BE2403328C10ED589197059C332958EE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B4AA05A3AEFA65B6049D023C0B53E545 /* Info.plist */,
-				65847C2F7822EC01BDE513599255D880 /* TPExIdentityCardOCR.modulemap */,
-				DEA8BC1E51E82452BBA3A60F3490B425 /* TPExIdentityCardOCR.xcconfig */,
-				2D7D151F1438FAD1269F2CD221B7A95A /* TPExIdentityCardOCR-dummy.m */,
-				FCE368C2F516D6D428B4EF17480D8DE5 /* TPExIdentityCardOCR-prefix.pch */,
-				63AB452BA15DA791320020BA2B2F0535 /* TPExIdentityCardOCR-umbrella.h */,
+				A5873069132FCFB50216F33AAA5A17CC /* ReplaceMe.m */,
+				1ED3C63EA9C7229E219197F22969055F /* TPExIdentityCardOCR.h */,
+				8EB881170DBFD0EA919E89A0BBC552B8 /* TPExIdentityCardOCR.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TPExIdentityCardOCR";
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F260FD3CF4EE4D8F36830E14BA87CB1E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DC56051350EAB4FE2AD492AED87A74F1 /* ExCardRes.bundle */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F4F0C6D38EA9513BC43F04256A9BF36E /* TPExIdentityCardOCR */ = {
+			isa = PBXGroup;
+			children = (
+				F260FD3CF4EE4D8F36830E14BA87CB1E /* Assets */,
+			);
+			name = TPExIdentityCardOCR;
+			path = TPExIdentityCardOCR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,20 +299,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37845048F3BA93CE17AD907ADFA59257 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF22D18347CEC35F618BC9DCDC7807B /* TPExIdentityCardOCR-umbrella.h in Headers */,
+				0F182183E346673A1C0D9F8171C4BBCC /* TPExIdentityCardOCR.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CB9F4F9ED34C32A86699C6EE4698E8C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0141229598ABE2EDBB58A820E8AB2097 /* Pods-TPExIdentityCardOCR_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0352A6B6E021876C43370DA45000AED /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE7831971E49B2D000F8BC70 /* TPExIdentityCardOCR.h in Headers */,
-				6D9E9F3D3B51325985D287D70F665ACC /* TPExIdentityCardOCR-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +334,25 @@
 			);
 			name = "Pods-TPExIdentityCardOCR_Example";
 			productName = "Pods-TPExIdentityCardOCR_Example";
-			productReference = 04B4A53FEA5FD07B3DA570543B3326FC /* Pods_TPExIdentityCardOCR_Example.framework */;
+			productReference = 83C35A9CCF91E48445E931252E84C389 /* Pods_TPExIdentityCardOCR_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		6DA30098E5E45FBCB89793A35D040395 /* TPExIdentityCardOCR-TPExIdentityCardOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD836FB42658BD59B6B057DA5BF0216 /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR-TPExIdentityCardOCR" */;
+			buildPhases = (
+				5173CF4A14036AA59187B6649D42E996 /* Sources */,
+				FF936019E460AEDF0AEDCBD96CE1359E /* Frameworks */,
+				7B028EF86F64454FF8495A57C59AC850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPExIdentityCardOCR-TPExIdentityCardOCR";
+			productName = "TPExIdentityCardOCR-TPExIdentityCardOCR";
+			productReference = 1EE0421BA39F082E74C8595FE47BEEF3 /* TPExIdentityCardOCR.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		889B461D67740088737B740CE05078AE /* Pods-TPExIdentityCardOCR_Tests */ = {
 			isa = PBXNativeTarget;
@@ -303,24 +368,26 @@
 			);
 			name = "Pods-TPExIdentityCardOCR_Tests";
 			productName = "Pods-TPExIdentityCardOCR_Tests";
-			productReference = EFAEABB7FBC9555114247931297DA4C8 /* Pods_TPExIdentityCardOCR_Tests.framework */;
+			productReference = BCF7851C2ECC852EF85030BB5436F44F /* Pods_TPExIdentityCardOCR_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		92B1B114B2A8F49ECCD8794F603A930D /* TPExIdentityCardOCR */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82462F81D6CC9AEB6637498A502B524C /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR" */;
 			buildPhases = (
-				ACE0B096D18B5BA0FA434A25E2AA9A8D /* Sources */,
+				72E59A7B950A02D0159A18E8E396A919 /* Sources */,
 				8BF79113D69BAAAB47A571860355A3A5 /* Frameworks */,
-				F0352A6B6E021876C43370DA45000AED /* Headers */,
+				55B479747785CDD94CC39DE633567709 /* Resources */,
+				37845048F3BA93CE17AD907ADFA59257 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0A8CF35C6DA987F8647802B3B3CFB59C /* PBXTargetDependency */,
 			);
 			name = TPExIdentityCardOCR;
 			productName = TPExIdentityCardOCR;
-			productReference = C6A33F9E9D8C30EA844D52EAE2688EC3 /* TPExIdentityCardOCR.framework */;
+			productReference = DD841E906B75FF4E10B40132EF085B61 /* TPExIdentityCardOCR.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -340,18 +407,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 01F4D4FB7675272A56FAD06BDA64008C /* Products */;
+			productRefGroup = 1945E6B5D0DE6616CE9ABE8262A5A1C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0D727F87FE9A44FEE0321A62C7EBD9F1 /* Pods-TPExIdentityCardOCR_Example */,
 				889B461D67740088737B740CE05078AE /* Pods-TPExIdentityCardOCR_Tests */,
 				92B1B114B2A8F49ECCD8794F603A930D /* TPExIdentityCardOCR */,
+				6DA30098E5E45FBCB89793A35D040395 /* TPExIdentityCardOCR-TPExIdentityCardOCR */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		55B479747785CDD94CC39DE633567709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA3FF77D858687EF333B27D3A270FCB /* TPExIdentityCardOCR.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B028EF86F64454FF8495A57C59AC850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B18E609B9C17DBDC6F4346DD00BC8C /* ExCardRes.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5173CF4A14036AA59187B6649D42E996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		617F108524DF1C65192E439FD75FD97A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,13 +454,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACE0B096D18B5BA0FA434A25E2AA9A8D /* Sources */ = {
+		72E59A7B950A02D0159A18E8E396A919 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7831981E49B2D000F8BC70 /* TPExIdentityCardOCR.m in Sources */,
-				63FD4F324A3339DFE760B8109E09276F /* ReplaceMe.m in Sources */,
-				431703BD902C39322787A9DB2865B2F8 /* TPExIdentityCardOCR-dummy.m in Sources */,
+				CFF803D0E2401EB8558668548D835684 /* ReplaceMe.m in Sources */,
+				AC308A6C0753FCE0F6258F55CD7C95FB /* TPExIdentityCardOCR-dummy.m in Sources */,
+				3D9BD95E1A8772A7B56CC80C73CD6D2C /* TPExIdentityCardOCR.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +475,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0A8CF35C6DA987F8647802B3B3CFB59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TPExIdentityCardOCR-TPExIdentityCardOCR";
+			target = 6DA30098E5E45FBCB89793A35D040395 /* TPExIdentityCardOCR-TPExIdentityCardOCR */;
+			targetProxy = 807FDE62C739E34C5C593AE5DE57C89D /* PBXContainerItemProxy */;
+		};
 		DBFEED12B0D50493F47773F72830AC6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TPExIdentityCardOCR;
@@ -460,6 +560,23 @@
 			};
 			name = Debug;
 		};
+		7E37B3660C78D19A1F30DE668B3C7672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CB49DC6B7F6BF8E72B8626C7D5A8C6 /* TPExIdentityCardOCR.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TPExIdentityCardOCR";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TPExIdentityCardOCR/ResourceBundle-TPExIdentityCardOCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TPExIdentityCardOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -499,6 +616,23 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		95A600F6E8A09F493016F5AE8971CFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CB49DC6B7F6BF8E72B8626C7D5A8C6 /* TPExIdentityCardOCR.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TPExIdentityCardOCR";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TPExIdentityCardOCR/ResourceBundle-TPExIdentityCardOCR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TPExIdentityCardOCR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -546,7 +680,7 @@
 		};
 		B2B3385D277236CF70D3F30179C55F69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA8BC1E51E82452BBA3A60F3490B425 /* TPExIdentityCardOCR.xcconfig */;
+			baseConfigurationReference = D8CB49DC6B7F6BF8E72B8626C7D5A8C6 /* TPExIdentityCardOCR.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -558,10 +692,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/sdk",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TPExIdentityCardOCR/TPExIdentityCardOCR-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TPExIdentityCardOCR/Info.plist";
@@ -616,7 +746,7 @@
 		};
 		E875C802B578EBA57F6BDB012C5F43AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA8BC1E51E82452BBA3A60F3490B425 /* TPExIdentityCardOCR.xcconfig */;
+			baseConfigurationReference = D8CB49DC6B7F6BF8E72B8626C7D5A8C6 /* TPExIdentityCardOCR.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -628,10 +758,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/sdk",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TPExIdentityCardOCR/TPExIdentityCardOCR-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TPExIdentityCardOCR/Info.plist";
@@ -701,6 +827,15 @@
 			buildConfigurations = (
 				E875C802B578EBA57F6BDB012C5F43AE /* Debug */,
 				B2B3385D277236CF70D3F30179C55F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD836FB42658BD59B6B057DA5BF0216 /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR-TPExIdentityCardOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A600F6E8A09F493016F5AE8971CFF4 /* Debug */,
+				7E37B3660C78D19A1F30DE668B3C7672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
