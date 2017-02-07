@@ -1,6 +1,0 @@
-use_frameworks!
-target 'TPExIdentityCardOCR_Tests' do
-  pod 'TPExIdentityCardOCR', :path => '../'
-  
-  
-end
