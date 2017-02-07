@@ -7,12 +7,18 @@
 //
 
 #import "TPExIdentityCardOCRAppDelegate.h"
+#import "TPExIdentityCardOCRViewController.h"
 
 @implementation TPExIdentityCardOCRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    TPExIdentityCardOCRViewController *vt = [[TPExIdentityCardOCRViewController alloc] init];
+//    self.window.rootViewController = vt;
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

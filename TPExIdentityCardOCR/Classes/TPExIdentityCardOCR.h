@@ -12,7 +12,12 @@
 
 
 @protocol TPExIdentityCardOCRProtocol <JSExport>
--(void)start;
+@property(nonatomic,strong) NSString *bFront;
+
+@property(nonatomic, strong) JSValue *success;
+
+@property(nonatomic, strong) JSValue *error;
+-(void)start;       //scan
 @end
 
 

@@ -32,9 +32,9 @@ TODO:     pod 'TPExIdentityCardOCR'
 
   s.source_files = 'TPExIdentityCardOCR/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TPExIdentityCardOCR' => ['TPExIdentityCardOCR/Assets/*.png']
-  # }
+  s.resource_bundles = {'TPExIdentityCardOCR' => ['TPExIdentityCardOCR/Assets/ExCardRes.bundle']}
+
+  s.vendored_frameworks = 'ExCardSDK.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
