@@ -7,115 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08D1134CB07AC0F232B2DD4C /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9430C456F7DE06637B9F491A /* Pods_TPExIdentityCardOCR_Tests.framework */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* TPExIdentityCardOCRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* TPExIdentityCardOCRAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* TPExIdentityCardOCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TPExIdentityCardOCRViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		1C3A327ECB64F86882DF7625 /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7A2C5A87CA3FA7D381D2D /* Pods_TPExIdentityCardOCR_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		68B783ECCE194385283F8974 /* Pods_TPExIdentityCardOCR_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CDC863C5422E5B614536A1 /* Pods_TPExIdentityCardOCR_Example.framework */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AE7831741E49970E00F8BC70 /* TPExIdentityCardOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7831731E49970E00F8BC70 /* TPExIdentityCardOCR.framework */; };
-		AE7831761E49994700F8BC70 /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE7831751E49994700F8BC70 /* ExCardRes.bundle */; };
+		AE7831911E49A66700F8BC70 /* TPExIdentityCardOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7831901E49A66700F8BC70 /* TPExIdentityCardOCR.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = TPExIdentityCardOCR;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		08B8CA7DD934E7902796A04E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		51CDC863C5422E5B614536A1 /* Pods_TPExIdentityCardOCR_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB84DFDEA568B916C87958D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* TPExIdentityCardOCR_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPExIdentityCardOCR_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B7A2C5A87CA3FA7D381D2D /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46719CF886B7FD32B369A16B /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* TPExIdentityCardOCR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPExIdentityCardOCR-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* TPExIdentityCardOCR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPExIdentityCardOCR-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* TPExIdentityCardOCRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCRAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* TPExIdentityCardOCRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCRAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* TPExIdentityCardOCRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPExIdentityCardOCRViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* TPExIdentityCardOCRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPExIdentityCardOCRViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* TPExIdentityCardOCR_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPExIdentityCardOCR_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D7F4D4F299E61F072922240 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9430C456F7DE06637B9F491A /* Pods_TPExIdentityCardOCR_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExIdentityCardOCR_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE7831731E49970E00F8BC70 /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPExIdentityCardOCR.framework; path = "Pods/../build/Debug-iphoneos/TPExIdentityCardOCR/TPExIdentityCardOCR.framework"; sourceTree = "<group>"; };
-		AE7831751E49994700F8BC70 /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
-		C799E9A684DC70E8CB2E7F6E /* TPExIdentityCardOCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPExIdentityCardOCR.podspec; path = ../TPExIdentityCardOCR.podspec; sourceTree = "<group>"; };
-		D1039E6C9183B69F46672A1F /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FB815A6F9496B637330E2B92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FC1011B941B943EEF91E2478 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6168AAF6D04DCE122F11CE29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		632BC1A35F68D7758B8D5AD6 /* TPExIdentityCardOCR.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPExIdentityCardOCR.podspec; path = ../TPExIdentityCardOCR.podspec; sourceTree = "<group>"; };
+		7F1A33BCA981FA896A6DDD28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AE7831901E49A66700F8BC70 /* TPExIdentityCardOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPExIdentityCardOCR.framework; path = "Pods/../build/Debug-iphoneos/TPExIdentityCardOCR/TPExIdentityCardOCR.framework"; sourceTree = "<group>"; };
+		EA7D643B925507780BFD9A03 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F587195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE7831741E49970E00F8BC70 /* TPExIdentityCardOCR.framework in Frameworks */,
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				68B783ECCE194385283F8974 /* Pods_TPExIdentityCardOCR_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F5AB195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7831911E49A66700F8BC70 /* TPExIdentityCardOCR.framework in Frameworks */,
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				08D1134CB07AC0F232B2DD4C /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */,
+				1C3A327ECB64F86882DF7625 /* Pods_TPExIdentityCardOCR_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C9B44A5B3B9CD191A28014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA7D643B925507780BFD9A03 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */,
+				46719CF886B7FD32B369A16B /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for TPExIdentityCardOCR */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				C0D4028C5602E89CBF4FCF2F /* Pods */,
+				26C9B44A5B3B9CD191A28014 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* TPExIdentityCardOCR_Example.app */,
 				6003F5AE195388D20070C39A /* TPExIdentityCardOCR_Tests.xctest */,
 			);
 			name = Products;
@@ -124,43 +82,14 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE7831731E49970E00F8BC70 /* TPExIdentityCardOCR.framework */,
+				AE7831901E49A66700F8BC70 /* TPExIdentityCardOCR.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				51CDC863C5422E5B614536A1 /* Pods_TPExIdentityCardOCR_Example.framework */,
-				9430C456F7DE06637B9F491A /* Pods_TPExIdentityCardOCR_Tests.framework */,
+				35B7A2C5A87CA3FA7D381D2D /* Pods_TPExIdentityCardOCR_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6003F593195388D20070C39A /* Example for TPExIdentityCardOCR */ = {
-			isa = PBXGroup;
-			children = (
-				AE7831751E49994700F8BC70 /* ExCardRes.bundle */,
-				6003F59C195388D20070C39A /* TPExIdentityCardOCRAppDelegate.h */,
-				6003F59D195388D20070C39A /* TPExIdentityCardOCRAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* TPExIdentityCardOCRViewController.h */,
-				6003F5A6195388D20070C39A /* TPExIdentityCardOCRViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			name = "Example for TPExIdentityCardOCR";
-			path = TPExIdentityCardOCR;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* TPExIdentityCardOCR-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* TPExIdentityCardOCR-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -185,62 +114,30 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				C799E9A684DC70E8CB2E7F6E /* TPExIdentityCardOCR.podspec */,
-				08B8CA7DD934E7902796A04E /* README.md */,
-				FB815A6F9496B637330E2B92 /* LICENSE */,
+				632BC1A35F68D7758B8D5AD6 /* TPExIdentityCardOCR.podspec */,
+				7F1A33BCA981FA896A6DDD28 /* README.md */,
+				6168AAF6D04DCE122F11CE29 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		C0D4028C5602E89CBF4FCF2F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5EB84DFDEA568B916C87958D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */,
-				6D7F4D4F299E61F072922240 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */,
-				FC1011B941B943EEF91E2478 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */,
-				D1039E6C9183B69F46672A1F /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* TPExIdentityCardOCR_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR_Example" */;
-			buildPhases = (
-				AFAE120B420B4CF75DA350AE /* [CP] Check Pods Manifest.lock */,
-				6003F586195388D20070C39A /* Sources */,
-				6003F587195388D20070C39A /* Frameworks */,
-				6003F588195388D20070C39A /* Resources */,
-				1002A043BA33D10D5F6ABB29 /* [CP] Embed Pods Frameworks */,
-				8AA7B883642EB787D3B8C68C /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TPExIdentityCardOCR_Example;
-			productName = TPExIdentityCardOCR;
-			productReference = 6003F58A195388D20070C39A /* TPExIdentityCardOCR_Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		6003F5AD195388D20070C39A /* TPExIdentityCardOCR_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR_Tests" */;
 			buildPhases = (
-				A8D66B8B69D373AC73701023 /* [CP] Check Pods Manifest.lock */,
+				E1D4238D41503115F758DB7B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				CA8BAE95A0FC60DAA080D10E /* [CP] Embed Pods Frameworks */,
-				76FBF859134ABAEBD4E80379 /* [CP] Copy Pods Resources */,
+				A6250CF65CEC01C7778C4A1A /* [CP] Embed Pods Frameworks */,
+				2B7A7A8B185BBB2BEE28B44F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
 			name = TPExIdentityCardOCR_Tests;
 			productName = TPExIdentityCardOCRTests;
@@ -257,11 +154,8 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = kingdomrain;
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = M7PXTCG24D;
-						ProvisioningStyle = Manual;
-					};
 					6003F5AD195388D20070C39A = {
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -279,25 +173,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* TPExIdentityCardOCR_Example */,
 				6003F5AD195388D20070C39A /* TPExIdentityCardOCR_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F588195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE7831761E49994700F8BC70 /* ExCardRes.bundle in Resources */,
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F5AC195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,22 +190,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1002A043BA33D10D5F6ABB29 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76FBF859134ABAEBD4E80379 /* [CP] Copy Pods Resources */ = {
+		2B7A7A8B185BBB2BEE28B44F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,52 +205,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8AA7B883642EB787D3B8C68C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Example/Pods-TPExIdentityCardOCR_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A8D66B8B69D373AC73701023 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AFAE120B420B4CF75DA350AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CA8BAE95A0FC60DAA080D10E /* [CP] Embed Pods Frameworks */ = {
+		A6250CF65CEC01C7778C4A1A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,19 +220,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPExIdentityCardOCR_Tests/Pods-TPExIdentityCardOCR_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E1D4238D41503115F758DB7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F586195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F59E195388D20070C39A /* TPExIdentityCardOCRAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* TPExIdentityCardOCRViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,37 +248,13 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* TPExIdentityCardOCR_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -531,59 +333,16 @@
 			};
 			name = Release;
 		};
-		6003F5C0195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EB84DFDEA568B916C87958D /* Pods-TPExIdentityCardOCR_Example.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M7PXTCG24D;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/TPExIdentityCardOCR",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TPExIdentityCardOCR/TPExIdentityCardOCR-Prefix.pch";
-				INFOPLIST_FILE = "TPExIdentityCardOCR/TPExIdentityCardOCR-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunline.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2b9bfcef-1ba1-4a70-a552-23abf0800f7c";
-				PROVISIONING_PROFILE_SPECIFIER = "com.sunline.*";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6003F5C1195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D7F4D4F299E61F072922240 /* Pods-TPExIdentityCardOCR_Example.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M7PXTCG24D;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/TPExIdentityCardOCR",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TPExIdentityCardOCR/TPExIdentityCardOCR-Prefix.pch";
-				INFOPLIST_FILE = "TPExIdentityCardOCR/TPExIdentityCardOCR-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunline.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2b9bfcef-1ba1-4a70-a552-23abf0800f7c";
-				PROVISIONING_PROFILE_SPECIFIER = "com.sunline.*";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC1011B941B943EEF91E2478 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */;
+			baseConfigurationReference = EA7D643B925507780BFD9A03 /* Pods-TPExIdentityCardOCR_Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TPExIdentityCardOCR",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -601,13 +360,14 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1039E6C9183B69F46672A1F /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */;
+			baseConfigurationReference = 46719CF886B7FD32B369A16B /* Pods-TPExIdentityCardOCR_Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TPExIdentityCardOCR",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -627,15 +387,6 @@
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
 				6003F5BE195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TPExIdentityCardOCR_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C0195388D20070C39A /* Debug */,
-				6003F5C1195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

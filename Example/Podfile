@@ -1,9 +1,6 @@
 use_frameworks!
-
-target 'TPExIdentityCardOCR_Example' do
+target 'TPExIdentityCardOCR_Tests' do
   pod 'TPExIdentityCardOCR', :path => '../'
-
-  target 'TPExIdentityCardOCR_Tests' do
-    inherit! :search_paths
-  end
+  
+  
 end

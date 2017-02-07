@@ -19,7 +19,7 @@ s.summary          = '易道博识身份证扫描(tiny的js扩展)'
 
 s.description      = <<-DESC
 TODO:     pod 'TPExIdentityCardOCR'
-                        DESC
+DESC
 
 s.homepage         = 'https://github.com/TinySunline/TPExIdentityCardOCR'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -34,7 +34,7 @@ s.source_files = 'TPExIdentityCardOCR/Classes/**/*'
 
 s.resource_bundles = {'TPExIdentityCardOCR' => ['TPExIdentityCardOCR/Assets/ExCardRes.bundle']}
 
-s.vendored_frameworks = 'TPExIdentityCardOCR/Frameworks/ExCardSDK.framework'
+s.vendored_frameworks = 'TPExIdentityCardOCR/Classes/sdk/ExCardSDK.framework'
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
