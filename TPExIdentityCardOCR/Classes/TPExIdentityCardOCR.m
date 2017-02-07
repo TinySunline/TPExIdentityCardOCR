@@ -19,7 +19,7 @@
 @implementation TPExIdentityCardOCR
 @synthesize error;
 @synthesize success;
-
+@synthesize bFront;
 
 -(id)init{
     if(self = [super init]) {
