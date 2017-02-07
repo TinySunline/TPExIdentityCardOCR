@@ -9,8 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-使用说明
+usage:
 
+var iDentifyOCR =new TPExIdentityCardOCR();
+
+iDentifyOCR.bFront = 'YES';    //识别正面还是背面，YES为正面，NO为背面
+iDentifyOCR.success = function(date){
+console.print(date);
+}
+iDentifyOCR.error = function(data){
+console.print(date);
+}
+iDentifyOCR.start();
 
 
 ## Requirements
