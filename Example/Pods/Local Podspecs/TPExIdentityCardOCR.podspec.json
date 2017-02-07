@@ -1,6 +1,6 @@
 {
   "name": "TPExIdentityCardOCR",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "易道博识身份证扫描(tiny的js扩展)",
   "description": "TODO:     pod 'TPExIdentityCardOCR'",
   "homepage": "https://github.com/TinySunline/TPExIdentityCardOCR",

@@ -1,5 +1,5 @@
 PODS:
-  - TPExIdentityCardOCR (1.0.2)
+  - TPExIdentityCardOCR (1.0.3)
 
 DEPENDENCIES:
   - TPExIdentityCardOCR (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TPExIdentityCardOCR: a10dafcd301f32a58133a304580ddbade921c554
+  TPExIdentityCardOCR: f4da443427f64acb78d5bf9da48fb4add894e65c
 
 PODFILE CHECKSUM: c9aa38bb10aab77faf2fb5d731512c1278172eb5
 
