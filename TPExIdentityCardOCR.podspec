@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPExIdentityCardOCR'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '易道博识身份证扫描(tiny的js扩展)'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO:     pod 'TPExIdentityCardOCR'
+          手动引入 ExCardRes.bundle资源
+
                        DESC
 
   s.homepage         = 'https://github.com/TinySunline/TPExIdentityCardOCR'
