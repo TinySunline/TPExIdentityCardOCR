@@ -47,14 +47,27 @@
         NSLog(@"Completed");
         NSLog(@"%@", [idInfo toString]);
         
-        if(bShouldFront == NO){
-            NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\"}",idInfo.issue,idInfo.valid];
-            [self.success callWithArguments:@[bdata]];
+        //将扫描的人脸缓存到本地
+        UIImage *faceImage = idInfo.faceImg;
+        NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+        NSString *imageFilePath = [path stringByAppendingPathComponent:@"/faceImage.jpg"];
+        BOOL success = [UIImageJPEGRepresentation(faceImage, 0.5) writeToFile:imageFilePath  atomically:YES];
+        
+        if (success){
+            NSLog(@"写入本地成功");
+            if(bShouldFront == NO){
+                NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\"}",idInfo.issue,idInfo.valid];
+                [self.success callWithArguments:@[bdata]];
+            }
+            else{
+                NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code];
+                [self.success callWithArguments:@[fdata]];
+            }
         }
         else{
-            NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code];
-            [self.success callWithArguments:@[fdata]];
+            [self.error callWithArguments:@[@"失败"]];
         }
+        
     } OnCanceled:^(int statusCode) {
         //NSLog(@"Canceled");
         [self.error callWithArguments:@[@"取消"]];
