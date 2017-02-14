@@ -5,14 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/TPExIdentityCardOCR.svg?style=flat)](http://cocoapods.org/pods/TPExIdentityCardOCR)
 [![Platform](https://img.shields.io/cocoapods/p/TPExIdentityCardOCR.svg?style=flat)](http://cocoapods.org/pods/TPExIdentityCardOCR)
 
+
+
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-usage:
+##usage
 
-var iDentifyOCR =new TPExIdentityCardOCR();
-
+var iDentifyOCR =new TPExIdentityCardOCR();  
 iDentifyOCR.bFront = 'YES';    //识别正面还是背面，YES为正面，NO为背面
 iDentifyOCR.success = function(date){
 console.print(date);
@@ -21,6 +24,10 @@ iDentifyOCR.error = function(data){
 console.print(date);
 }
 iDentifyOCR.start();
+
+## Update
+1.0.5 
+add faceImgBase64  
 
 
 ## Requirements
