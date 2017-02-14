@@ -30,9 +30,7 @@
 }
 
 -(void)start{
-    //NSLog(@"开始ocr扫描");
     UIViewController *window = [UIApplication sharedApplication].keyWindow.rootViewController;
-//    UIViewController *currentVC = [self getCurrentVC];
     self.viewController = window;
     
     EXOCRIDCardRecoManager *manager = [EXOCRIDCardRecoManager sharedManager:self.viewController];
@@ -54,13 +52,16 @@
         BOOL success = [UIImageJPEGRepresentation(faceImage, 0.5) writeToFile:imageFilePath  atomically:YES];
         
         if (success){
-            NSLog(@"写入本地成功");
             if(bShouldFront == NO){
                 NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\"}",idInfo.issue,idInfo.valid];
                 [self.success callWithArguments:@[bdata]];
             }
             else{
-                NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code];
+                //1.0.5 add faceImgBase64
+                UIImage *faceImg = idInfo.faceImg;
+                NSData *faceImgData = UIImageJPEGRepresentation(faceImg, 0.2);
+                NSString *encodedString2 = [faceImgData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+                NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\",\"faceImgBase64\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,encodedString2];
                 [self.success callWithArguments:@[fdata]];
             }
         }
@@ -75,7 +76,6 @@
         //NSLog(@"Failed");
         [self.error callWithArguments:@[@"失败"]];
     }];
-    //NSLog(@"结束扫描");
 }
 
 -(void)dealloc
