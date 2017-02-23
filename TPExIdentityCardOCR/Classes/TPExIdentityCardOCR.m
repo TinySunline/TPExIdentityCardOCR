@@ -42,33 +42,38 @@
     }
     
     [manager recoIDCardFromStreamWithSide:bShouldFront OnCompleted:^(int statusCode, EXOCRIDCardInfo *idInfo) {
-        NSLog(@"Completed");
         NSLog(@"%@", [idInfo toString]);
         
-        //将扫描的人脸缓存到本地
-        UIImage *faceImage = idInfo.faceImg;
         NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-        NSString *imageFilePath = [path stringByAppendingPathComponent:@"/faceImage.jpg"];
-        BOOL success = [UIImageJPEGRepresentation(faceImage, 0.5) writeToFile:imageFilePath  atomically:YES];
         
-        if (success){
             if(bShouldFront == NO){
-                NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\"}",idInfo.issue,idInfo.valid];
-                [self.success callWithArguments:@[bdata]];
+                UIImage *backFullImg =idInfo.backFullImg;    //身份证背面全图
+                NSString *backFullImgPath = [path stringByAppendingPathComponent:@"/backFullImg.jpg"];
+                BOOL success = [UIImageJPEGRepresentation(backFullImg, 0.5) writeToFile:backFullImgPath  atomically:YES];
+                if(success){
+                    NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\",\"imgPath\":\"%@\"}",idInfo.issue,idInfo.valid,backFullImgPath];
+                    [self.success callWithArguments:@[bdata]];
+                }
             }
             else{
                 //1.0.5 add faceImgBase64
-                UIImage *faceImg = idInfo.faceImg;
-                NSData *faceImgData = UIImageJPEGRepresentation(faceImg, 0.2);
-                NSString *encodedString2 = [faceImgData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
-                NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\",\"faceImgBase64\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,encodedString2];
-                [self.success callWithArguments:@[fdata]];
+//                UIImage *faceImg = idInfo.faceImg;
+//                NSData *faceImgData = UIImageJPEGRepresentation(faceImg, 0.2);
+//                NSString *encodedString2 = [faceImgData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+                
+                //1.0.6 add 头像图片路径
+                UIImage *faceImage = idInfo.faceImg;
+                NSString *imageFilePath = [path stringByAppendingPathComponent:@"/faceImage.jpg"];
+                BOOL success1 = [UIImageJPEGRepresentation(faceImage, 0.5) writeToFile:imageFilePath  atomically:YES];
+                
+                UIImage *frontFullImg = idInfo.frontFullImg;
+                NSString *frontFullImgPath = [path stringByAppendingPathComponent:@"/frontFullImg.jpg"];
+                BOOL success2 = [UIImageJPEGRepresentation(frontFullImg, 0.5) writeToFile:frontFullImgPath  atomically:YES];
+                if(success1&&success2){
+                    NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\",\"imgPath\":\"%@\",\"imgFacePath\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,frontFullImgPath,frontFullImgPath];
+                    [self.success callWithArguments:@[fdata]];
+                }
             }
-        }
-        else{
-            [self.error callWithArguments:@[@"失败"]];
-        }
-        
     } OnCanceled:^(int statusCode) {
         //NSLog(@"Canceled");
         [self.error callWithArguments:@[@"取消"]];
