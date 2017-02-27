@@ -53,7 +53,7 @@
                 if(success){
                     NSString *imgUrl=@"local://";
                     imgUrl = [imgUrl stringByAppendingString:backFullImgPath];
-                    NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\",\"imgPath\":\"%@\"}",idInfo.issue,idInfo.valid,imgUrl];
+                    NSString *bdata = [NSString stringWithFormat:@"{\"office\":\"%@\",\"validdate\":\"%@\",\"imgPath\":\"%@\"}",idInfo.issue,idInfo.valid,imgUrl];
                     [self.success callWithArguments:@[bdata]];
                 }
             }
@@ -76,7 +76,7 @@
                     imageFileimgUrl = [imageFileimgUrl stringByAppendingString:imageFilePath];
                     NSString *ifrontFullImgUrl=@"local://";
                     ifrontFullImgUrl = [ifrontFullImgUrl stringByAppendingString:frontFullImgPath];
-                    NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\",\"imgPath\":\"%@\",\"imgFacePath\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,ifrontFullImgUrl,imageFileimgUrl];
+                    NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"sex\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"cardnum\":\"%@\",\"imgPath\":\"%@\",\"imgFacePath\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,ifrontFullImgUrl,imageFileimgUrl];
                     [self.success callWithArguments:@[fdata]];
                 }
             }
