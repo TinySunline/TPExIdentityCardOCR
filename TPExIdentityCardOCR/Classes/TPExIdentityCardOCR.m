@@ -51,7 +51,9 @@
                 NSString *backFullImgPath = [path stringByAppendingPathComponent:@"/backFullImg.jpg"];
                 BOOL success = [UIImageJPEGRepresentation(backFullImg, 0.5) writeToFile:backFullImgPath  atomically:YES];
                 if(success){
-                    NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\",\"imgPath\":\"%@\"}",idInfo.issue,idInfo.valid,backFullImgPath];
+                    NSString *imgUrl=@"local://";
+                    imgUrl = [imgUrl stringByAppendingString:backFullImgPath];
+                    NSString *bdata = [NSString stringWithFormat:@"{\"issue\":\"%@\",\"valid\":\"%@\",\"imgPath\":\"%@\"}",idInfo.issue,idInfo.valid,imgUrl];
                     [self.success callWithArguments:@[bdata]];
                 }
             }
@@ -70,7 +72,11 @@
                 NSString *frontFullImgPath = [path stringByAppendingPathComponent:@"/frontFullImg.jpg"];
                 BOOL success2 = [UIImageJPEGRepresentation(frontFullImg, 0.5) writeToFile:frontFullImgPath  atomically:YES];
                 if(success1&&success2){
-                    NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\",\"imgPath\":\"%@\",\"imgFacePath\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,frontFullImgPath,frontFullImgPath];
+                    NSString *imageFileimgUrl=@"local://";
+                    imageFileimgUrl = [imageFileimgUrl stringByAppendingString:imageFilePath];
+                    NSString *ifrontFullImgUrl=@"local://";
+                    ifrontFullImgUrl = [ifrontFullImgUrl stringByAppendingString:frontFullImgPath];
+                    NSString *fdata = [NSString stringWithFormat:@"{\"name\":\"%@\",\"gender\":\"%@\",\"nation\":\"%@\",\"birth\":\"%@\",\"address\":\"%@\",\"code\":\"%@\",\"imgPath\":\"%@\",\"imgFacePath\":\"%@\"}",idInfo.name,idInfo.gender,idInfo.nation,idInfo.birth,idInfo.address,idInfo.code,ifrontFullImgUrl,imageFileimgUrl];
                     [self.success callWithArguments:@[fdata]];
                 }
             }
