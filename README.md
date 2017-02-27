@@ -28,9 +28,12 @@ iDentifyOCR.start();
 其中bFront代表识别正面还是背面，YES为正面，NO为背面
 
 ## Update
-1.0.5 
+1.0.5   
 add faceImgBase64  
-
+1.0.6   
+add 图片路径  
+1.0.7  
+抛出字段修改，和安卓平台保持统一 
 
 ## Requirements
 
