@@ -24,23 +24,29 @@
 -(id)init{
     if(self = [super init]) {
         [EXOCRCardEngineManager initEngine];
+        Class TinyPlus=NSClassFromString(@"TinyPlus");
+        if(TinyPlus){
+            id tinyPlusInPod  =  [[TinyPlus alloc] init];
+            if([tinyPlusInPod respondsToSelector:@selector(getViewController)]){
+                self.viewController =[tinyPlusInPod performSelector:@selector(getViewController)];
+            }
+        }
     }
     return self;
     
 }
 
 -(void)start{
-    UIViewController *window = [UIApplication sharedApplication].keyWindow.rootViewController;
-    self.viewController = window;
     
     EXOCRIDCardRecoManager *manager = [EXOCRIDCardRecoManager sharedManager:self.viewController];
     [manager setImageMode:ID_IMAGEMODE_HIGH];
+    [manager setDisplayLogo:NO];
+    [manager displayScanViewControllerByPresent:YES];
     
     BOOL bShouldFront = YES;   //默认是YES  识别正面还是背面，YES为正面，NO为背面
     if([self.bFront isEqualToString:@"NO"]){
         bShouldFront = NO;
     }
-    
     [manager recoIDCardFromStreamWithSide:bShouldFront OnCompleted:^(int statusCode, EXOCRIDCardInfo *idInfo) {
         NSLog(@"%@", [idInfo toString]);
         
@@ -81,10 +87,8 @@
                 }
             }
     } OnCanceled:^(int statusCode) {
-        //NSLog(@"Canceled");
         [self.error callWithArguments:@[@"取消"]];
     } OnFailed:^(int statusCode, UIImage *recoImg) {
-        //NSLog(@"Failed");
         [self.error callWithArguments:@[@"失败"]];
     }];
 }
@@ -92,35 +96,6 @@
 -(void)dealloc
 {
     [EXOCRCardEngineManager finishEngine];
-}
-
-- (UIViewController *)getCurrentVC
-{
-    UIViewController *result = nil;
-    
-    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
-    if (window.windowLevel != UIWindowLevelNormal)
-    {
-        NSArray *windows = [[UIApplication sharedApplication] windows];
-        for(UIWindow * tmpWin in windows)
-        {
-            if (tmpWin.windowLevel == UIWindowLevelNormal)
-            {
-                window = tmpWin;
-                break;
-            }
-        }
-    }
-    
-    UIView *frontView = [[window subviews] objectAtIndex:0];
-    id nextResponder = [frontView nextResponder];
-    
-    if ([nextResponder isKindOfClass:[UIViewController class]])
-        result = nextResponder;
-    else
-        result = window.rootViewController;
-    
-    return result;
 }
 
 @end
