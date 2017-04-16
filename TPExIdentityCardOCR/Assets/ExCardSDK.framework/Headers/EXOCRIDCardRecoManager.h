@@ -10,13 +10,13 @@
 #import "EXOCRIDCardInfo.h"
 
 /**
- *	@brief 身份证识别回调CompletedIDCardBlock, CanceledBlock, FailedBlock
+ *	@brief 身份证识别回调EXOCRCompletedIDCardBlock, EXOCRCanceledBlock, EXOCRFailedBlock
  *
  *	@discussion 用来设定异步调用的回调
  */
-typedef void (^CompletedIDCardBlock)(int statusCode, EXOCRIDCardInfo *idInfo);
-typedef void (^CanceledBlock)(int statusCode);
-typedef void (^FailedBlock)(int statusCode, UIImage *recoImg);
+typedef void (^EXOCRCompletedIDCardBlock)(int statusCode, EXOCRIDCardInfo *idInfo);
+typedef void (^EXOCRCanceledBlock)(int statusCode);
+typedef void (^EXOCRFailedBlock)(int statusCode, UIImage *recoImg);
 
 @interface EXOCRIDCardRecoManager : NSObject
 /**
@@ -26,24 +26,38 @@ typedef void (^FailedBlock)(int statusCode, UIImage *recoImg);
 +(instancetype)sharedManager:(UIViewController *)vc;
 
 /**
- * @brief 调用身份证证扫描识别
- * @param bFront - 识别正面还是背面，YES为正面，NO为背面
- * @param completedBlock - 识别完成回调，获取识别结果EXOCRIDCardInfo对象
- * @param canceledBlock - 识别取消回调
- * @param failedBlock - 识别失败回调
+ * @brief 取图设置，设置取图模式（目前支持三种取图模式）
+ * @param imageMode - 取图模式（可配置取图模式在EXOCRIDCardInfo.h中定义）
  */
--(void)recoIDCardFromStreamWithSide:(BOOL)bFront OnCompleted:(CompletedIDCardBlock)completedBlock
-                          OnCanceled:(CanceledBlock)canceledBlock
-                            OnFailed:(FailedBlock)failedBlock;
+-(void)setImageMode:(int)imageMode;
+
 /**
  * @brief 静态图片识别方法
  * @param image - 待识别静态图像
  * @param completedBlock - 识别成功回调，获取识别结果EXOCRIDCardInfo对象
- * @param failedBlock - 识别失败回调
+ * @param EXOCRFailedBlock - 识别失败回调
  */
 -(void)recoIDCardFromStillImage:(UIImage *)image
-                  OnCompleted:(CompletedIDCardBlock)completedBlock
-                     OnFailed:(FailedBlock)failedBlock;
+                    OnCompleted:(EXOCRCompletedIDCardBlock)completedBlock
+                       OnFailed:(EXOCRFailedBlock)EXOCRFailedBlock;
+
+/**
+ * @brief 扫描页面调用方式设置，设置扫描页面调用方式
+ * @param bByPresent - 是否以present方式调用，默认为NO，YES-以present方式调用，NO-以sdk默认方式调用(push或present)
+ */
+-(void)displayScanViewControllerByPresent:(BOOL)bByPresent;
+
+#pragma mark - 默认扫描视图
+/**
+ * @brief 调用身份证扫描识别(若自定义扫描视图，请使用recoIDCardFromStreamByCustomScanViewWithSide:方法调用识别)
+ * @param bFront - 身份证方向，YES-正面，NO-背面
+ * @param completedBlock - 识别完成回调，获取识别结果EXOCRIDCardInfo对象
+ * @param EXOCRCanceledBlock - 识别取消回调
+ * @param EXOCRFailedBlock - 识别失败回调
+ */
+-(void)recoIDCardFromStreamWithSide:(BOOL)bFront OnCompleted:(EXOCRCompletedIDCardBlock)completedBlock
+                          OnCanceled:(EXOCRCanceledBlock)EXOCRCanceledBlock
+                            OnFailed:(EXOCRFailedBlock)EXOCRFailedBlock;
 
 /**
  * @brief 扫描页设置，是否显示logo
@@ -114,9 +128,31 @@ typedef void (^FailedBlock)(int statusCode, UIImage *recoImg);
  */
 -(void)setScanErrorTipsFontName:(NSString *)fontName andFontSize:(float)fontSize;
 
+#pragma mark - 自定义扫描视图
 /**
- * @brief 取图设置，设置取图模式（目前支持三种取图模式）
- * @param imageMode - 取图模式（可配置取图模式在EXOCRIDCardInfo.h中定义）
+ *	@brief 设置自定义扫描视图，当前版本仅支持横屏识别（若自定义扫描视图，其他扫描页设置接口将无效）
+ *         自定义扫描视图frame须与竖屏屏幕大小一致
+ *         建议：1.自定义扫描视图frame设置为[UIScreen mainScreen].bounds(须保证width小于height)
+ *              2.自定义扫描视图扫描框宽高比设置为720:454，以达到最佳识别效果
+ *  @return YES-设置自定义扫描视图成功，NO-设置自定义扫描视图失败
+ *  @param customScanView - 自定义扫描试图
  */
--(void)setImageMode:(int)imageMode;
+-(BOOL)setCustomScanView:(UIView *)customScanView;
+
+/**
+ *	@brief 退出扫描识别控制器（仅在设置自定义扫描视图成功后生效）
+ */
+-(void)dismissScanViewControllerAnimated:(BOOL)animated;
+
+/**
+ *	@brief 闪光灯开启与关闭（仅在设置自定义扫描视图成功后生效）
+ *  @param bMode - 闪光灯模式，YES-打开闪光灯，NO-关闭闪光灯
+ */
+-(void)setFlashMode:(BOOL)bMode;
+
+/**
+ * @brief 调用身份证扫描识别(若默认扫描视图，请使用recoIDCardFromStreamWithSide:OnCompleted:OnCanceled:OnFailed:方法调用识别)
+ * @param bFront - 身份证方向，YES-正面，NO-背面
+ */
+-(void)recoIDCardFromStreamByCustomScanViewWithSide:(BOOL)bFront;
 @end

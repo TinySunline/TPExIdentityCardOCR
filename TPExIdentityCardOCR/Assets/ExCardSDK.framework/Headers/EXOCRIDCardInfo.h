@@ -14,9 +14,9 @@
  *
  *	@discussion 用于设置身份证取图模式
  */
-#define ID_IMAGEMODE_LOW         (0)
-#define ID_IMAGEMODE_MEDIUM      (1)
-#define ID_IMAGEMODE_HIGH        (2)
+#define ID_IMAGEMODE_LOW         (0)        //原始图像
+#define ID_IMAGEMODE_MEDIUM      (1)        //严格切边
+#define ID_IMAGEMODE_HIGH        (2)        //严格切边并留白
 /**
  *	@brief 身份证识别回调状态码
  *

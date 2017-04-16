@@ -17,5 +17,6 @@ FOUNDATION_EXPORT const unsigned char ExCardSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <ExCardSDK/PublicHeader.h>
 
 #import <ExCardSDK/EXOCRCardEngineManager.h>
+#import <ExCardSDK/EXOCRCustomScanView.h>
 #import <ExCardSDK/EXOCRIDCardRecoManager.h>
 #import <ExCardSDK/EXOCRIDCardInfo.h>
